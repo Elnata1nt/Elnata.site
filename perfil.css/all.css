@@ -17,12 +17,21 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 40px 10%;
     background: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 100;
+    transition: 0.5s;
+}
+header.rolagem{
+    background-color: aliceblue;
+    padding: 20px 10%;
+}
+
+header.rolagem a {
+    color: #00abf0;
 }
 
 .logo {
@@ -46,6 +55,8 @@ body {
 .navbar a.active { 
     color: #00abf0;
 }
+
+
 
 .home {
     height: 100vh;
@@ -92,11 +103,11 @@ body {
     align-items: center;
     width: 150px;
     height: 100%;
-    background: #00abf0;
+    background: transparent;
     border: 2px solid #00abf0;
     border-radius: 8px;
     font-size: 19px;
-    color: #081b29;
+    color: #00abf0;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -106,7 +117,7 @@ body {
 }
 
 .bnt-box a:hover {
-    color: #00abf0;
+    color: #081b29;
 }
 
 .bnt-box a:nth-child(2) {
@@ -129,7 +140,7 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: #081b29;
+    background: #00abf0;
     z-index: -1;
     transition: .5s;
 }
@@ -206,7 +217,7 @@ body {
 
 .about {
     height: 100vh;
-    /* background: url('') no-repeat; */
+    /* background: url('#') no-repeat; */
     background: #081b29;
     background-size: cover;
     background-position: center;
@@ -217,7 +228,6 @@ body {
 
 .about-content {
     max-width: 600px;
-    background: rgb(111, 0, 255);
 }
 
 .about-content h1 {
