@@ -214,6 +214,61 @@ header.rolagem a {
 /* KEYFRAMES ANIMATION */
 
 /* ------------------------------------------------------------------------------------------- */
+.Product {
+    background: #103754;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Ajuste a altura conforme necessário */
+}
+
+.product-sci {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px; /* Ajuste a largura máxima conforme necessário */
+    width: 100%; /* Adicionado para ocupar 100% da largura disponível */
+    font-size: 2vh;
+    margin-bottom: 2vh;
+}
+
+.box-sci {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.box-sci i {
+    font-size: 12vh;
+    margin-bottom: 2vh;
+}
+
+.product-sci a {
+    display: flex;
+    font-size: 8vh;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1vh; /* Adicionado espaçamento entre os ícones */
+    text-decoration: none;
+    color: #e6e8e9;
+    background: red;
+    
+}
+
+.product-sci p {
+    background: green;
+    font-size: 16px;
+    margin: 20px 0 40px;
+    text-align: center;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------- */
 
 .about {
     height: 100vh;
