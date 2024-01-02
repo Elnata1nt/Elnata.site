@@ -195,23 +195,6 @@ header.rolagem a {
     width: 100%;
 }
 
-/* .home-imgHover {
-    position: absolute;
-    top: 0;
-    right: 30px;
-    width: 500px;
-    height: 100%;
-    background: transparent;
-    transition: 1s;
-
-}
-
-.home-imgHover:hover {
-    background: #081b29;
-    opacity: .8;
-} */
-
-/* KEYFRAMES ANIMATION */
 
 /* ------------------------------------------------------------------------------------------- */
 .Product {
@@ -224,41 +207,47 @@ header.rolagem a {
 
 .product-sci {
     display: flex;
-    justify-content: space-between;
-    max-width: 600px; /* Ajuste a largura máxima conforme necessário */
+    max-width: 140vh; /* Ajuste a largura máxima conforme necessário */
     width: 100%; /* Adicionado para ocupar 100% da largura disponível */
-    font-size: 2vh;
-    margin-bottom: 2vh;
+}
+
+.product-container {
+    width: 80%; /* Ajuste a largura conforme necessário */
+    margin: 0 auto; /* Centraliza o container */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .box-sci {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
+    align-items: center; /* Centraliza os ícones e parágrafos */
+    text-align: center; /* Centraliza o texto */
+    margin: 18px; /* Adicione margem entre os itens */
+    text-decoration: none;
+    justify-content: space-between;
+    color: #e6e8e9;
+  }
 
 .box-sci i {
-    font-size: 12vh;
-    margin-bottom: 2vh;
+    font-size: 12vh; //tamanho do icon
 }
 
 .product-sci a {
     display: flex;
     font-size: 8vh;
-    width: 100px;
-    height: 100px;
+    width: 170px;
+    height: 170px;
     justify-content: center;
-    align-items: center;
-    margin: 0 1vh; /* Adicionado espaçamento entre os ícones */
-    text-decoration: none;
+    margin: 2 6vh; /* Adicionado espaçamento entre os ícones */
     color: #e6e8e9;
-    background: red;
-    
+    /* background: red; */
+
 }
 
 .product-sci p {
-    background: green;
+    /* background: green; */
     font-size: 16px;
     margin: 20px 0 40px;
     text-align: center;
