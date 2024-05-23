@@ -86,6 +86,7 @@ header.rolagem a {
 
 .home-content p {
     font-size: 16px;
+    font-weight: 300;
     margin: 20px 0 40px;
 }
 
@@ -228,10 +229,13 @@ header.rolagem a {
     text-decoration: none;
     justify-content: space-between;
     color: #e6e8e9;
+
+    border: 2px solid #00abf0;
+    border-radius: 8px;
   }
 
-.box-sci i {
-    font-size: 12vh; //tamanho do icon
+.box-sci b {
+    font-size: 7vh; //tamanho do icon
 }
 
 .product-sci a {
@@ -242,13 +246,11 @@ header.rolagem a {
     justify-content: center;
     margin: 2 6vh; /* Adicionado espaçamento entre os ícones */
     color: #e6e8e9;
-    /* background: red; */
-
 }
 
 .product-sci p {
-    /* background: green; */
     font-size: 16px;
+    font-weight: 300;
     margin: 20px 0 40px;
     text-align: center;
 }
@@ -261,8 +263,7 @@ header.rolagem a {
 
 .about {
     height: 100vh;
-    /* background: url('#') no-repeat; */
-    background: #081b29;
+    background: url('/img/about-me.png') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -276,12 +277,13 @@ header.rolagem a {
 
 .about-content h1 {
     position: relative;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 1.0;
 }
 
 .about-content p {
     font-size: 16px;
+    font-weight: 300;
     margin: 20px 0 40px;
 }
