@@ -8,7 +8,6 @@
 }
 
 body {
-    /* background: #081b29; */
     color: aliceblue;
 }
 
@@ -203,7 +202,7 @@ header.rolagem a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh; /* Ajuste a altura conforme necessário */
+    height: 70vh; 
 }
 
 .product-sci {
@@ -213,7 +212,6 @@ header.rolagem a {
 }
 
 .product-container {
-    width: 80%; /* Ajuste a largura conforme necessário */
     margin: 0 auto; /* Centraliza o container */
     display: flex;
     flex-wrap: wrap;
@@ -225,16 +223,16 @@ header.rolagem a {
     flex-direction: column;
     align-items: center; /* Centraliza os ícones e parágrafos */
     text-align: center; /* Centraliza o texto */
-    margin: 18px; /* Adicione margem entre os itens */
+    margin: 18px; 
     text-decoration: none;
     justify-content: space-between;
     color: #e6e8e9;
-
-    border: 2px solid #00abf0;
+    background: #0a1f2f;    
     border-radius: 8px;
   }
 
 .box-sci b {
+    margin-top: 30px;
     font-size: 7vh; //tamanho do icon
 }
 
@@ -251,7 +249,7 @@ header.rolagem a {
 .product-sci p {
     font-size: 16px;
     font-weight: 300;
-    margin: 20px 0 40px;
+    margin: 10px 10px 40px;
     text-align: center;
 }
 
